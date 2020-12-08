@@ -11,8 +11,8 @@ $(function () {
   function drawChart() {
 	var data = google.visualization.arrayToDataTable([
 	  ["Contribution", "%"],
-	  ["Josh", 75],
-	  ["Jack", 10],
+	  ["Josh", 70],
+	  ["Jack", 15],
 	  ["Jarod", 15],
 	]);
 
