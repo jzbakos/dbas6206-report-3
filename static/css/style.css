@@ -61,7 +61,7 @@ hr.heading-divider {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-position: relative;
+  position: relative;
   display: flex;
   align-items: center;
 }
