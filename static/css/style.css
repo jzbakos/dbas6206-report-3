@@ -73,11 +73,33 @@ hr.heading-divider {
   color: rgb(255, 255, 255);
 }
 
-@media handheld {
-  .title-text {
-    font-size: 24px;
-    text-transform: uppercase;
-    text-align: center;
+#profile-mobile {
+  width: 100%;
+  min-width: 200px;
+  border: 5px solid rgb(255, 255, 255);
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 380px) {
+
+  #profile-mobile {
+    display: none;
+  }
+
+  #title-mobile {
+    display: none;
+  }
+}
+
+@media (max-width: 379px) {
+
+  #profile {
+    display: none;
+  }
+
+  #title-landscape {
+    display: none;
   }
 }
 
