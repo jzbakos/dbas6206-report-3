@@ -55,13 +55,13 @@ hr.heading-divider {
 #preface {
   min-width: 320px;
   min-height: 100vh;
+  max-height: 100vh;
   background: url("../img/sushi-background.png") no-repeat center center fixed;
   /* background: url("../img/sushi-background.png") no-repeat center center fixed; */
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  position: relative;
   display: flex;
   align-items: center;
 }
