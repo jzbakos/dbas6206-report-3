@@ -81,7 +81,7 @@ hr.heading-divider {
   margin-bottom: 20px;
 }
 
-@media (min-width: 380px) {
+@media (min-width: 500px) {
 
   #profile-mobile {
     display: none;
@@ -92,7 +92,7 @@ hr.heading-divider {
   }
 }
 
-@media (max-width: 379px) {
+@media (max-width: 499px) {
 
   #profile {
     display: none;
