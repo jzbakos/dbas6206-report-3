@@ -17,13 +17,13 @@ body {
 
 #profile {
   width: 100%;
-  border: 5px solid rgb(255, 255, 255);
+  border: 10px double rgb(255, 255, 255);
   border-radius: 50%;
 }
 
 #profile:hover {
   filter: brightness(90%);
-  border: 5px solid rgb(255, 255, 255);
+  border: 8px solid rgb(218, 218, 218);
 }
 
 .title-text {
