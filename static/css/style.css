@@ -55,14 +55,12 @@ hr.heading-divider {
   min-width: 320px;
   min-height: 100vh;
   max-height: 100vh;
-  background-size:100%;
-  width:100%;
+  background-size: 100%;
+  width: 100%;
   background: url("../img/sushi-background.png") no-repeat center center fixed;
-  /* background: url("../img/sushi-background.png") no-repeat center center fixed; */
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  /* background-size: cover; */
   display: flex;
   align-items: center;
 }
@@ -86,7 +84,6 @@ hr.heading-divider {
 }
 
 @media (min-width: 500px) {
-
   #profile-mobile {
     display: none;
   }
@@ -97,7 +94,20 @@ hr.heading-divider {
 }
 
 @media (max-width: 499px) {
-
+  #preface {
+    min-width: 320px;
+    min-height: 100vh;
+    max-height: 100vh;
+    background-size: 100%;
+    width: 100%;
+    background: url("../img/sushi-background-mobile.png") no-repeat center
+      center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    display: flex;
+    align-items: center;
+  }
 
   #profile {
     display: none;
