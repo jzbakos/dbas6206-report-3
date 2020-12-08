@@ -55,12 +55,14 @@ hr.heading-divider {
   min-width: 320px;
   min-height: 100vh;
   max-height: 100vh;
+  background-size:100%;
+  width:100%;
   background: url("../img/sushi-background.png") no-repeat center center fixed;
   /* background: url("../img/sushi-background.png") no-repeat center center fixed; */
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  /* background-size: cover; */
   display: flex;
   align-items: center;
 }
@@ -95,6 +97,7 @@ hr.heading-divider {
 }
 
 @media (max-width: 499px) {
+
 
   #profile {
     display: none;
@@ -135,4 +138,3 @@ hr.heading-divider {
   height: 80px;
   margin-top: 150px;
 }
-
